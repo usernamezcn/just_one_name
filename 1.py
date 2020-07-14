@@ -1,0 +1,6 @@
+select * from bhv_device t where typename!='油中溶解气体' and typename!='气体水分' and typename!='气体压力'
+    and typename!='避雷器绝缘监测' and typename!='断路器局部放电' and typename!='储能电机工作状态'
+    and typename!='顶层油温'and typename!='分合闸线圈电流波形' and typename!='容性设备绝缘监测'
+    and typename!='铁芯接地电流' and typename!='微水' and typename!='覆冰监测' and typename!='导线温度监测'
+    and typename!='导线舞动' and typename!='风偏监测' and typename!='微风振动监测' and typename!='微气象监测'
+    and typename!='现场污秽度监测'
